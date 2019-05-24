@@ -11,7 +11,7 @@ default port is 61180
 ## test
 
 ```
-curl https:/github.com -x 127.0.0.1:61180 -v
+curl https://github.com -x 127.0.0.1:61180 -v
 ```
 
 ## power by
