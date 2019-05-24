@@ -1,1 +1,1 @@
- cat nginx-proxy.pid |xargs -I {} kill -9 {}
+./nginx -c nginx.conf -p . -s stop
