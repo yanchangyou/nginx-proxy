@@ -6,7 +6,7 @@ os is centos 7.4
 yum install -y git
 git clone https://github.com/yanchangyou/nginx-proxy
 cd nginx-proxy
-./run
+./run.sh
 
 ```
 default port is 8888
