@@ -7,6 +7,7 @@ yum install -y git
 git clone https://github.com/yanchangyou/nginx-proxy
 cd nginx-proxy
 ./run.sh
+tail -f access.log
 
 ```
 default port is 8888
