@@ -2,6 +2,8 @@
 os is centos 7.4
 
 ```
+# stop firewall
+systemctl stop firewalld
 
 # install git
 yum install -y git
